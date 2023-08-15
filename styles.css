@@ -345,3 +345,72 @@ body {
     transform: translateY(-5px);
   }
 }
+
+/* ... Previous styles ... */
+
+/* ... Previous styles ... */
+
+/* Styling for Contact Me section */
+.contact-section {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #f8f8f8;
+}
+
+.contact-form {
+  max-width: 700px; /* Increase the max-width for larger screens */
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-size: 18px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .contact-form {
+    padding: 20px;
+  }
+
+  input,
+  textarea {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
