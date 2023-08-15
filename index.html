@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
     <title>Your Portfolio</title>
   </head>
   <body>
@@ -197,29 +203,51 @@
 
     <!-- ... Previous code ... -->
 
-  <section id="contact" class="contact-section">
-    <h2>Contact Me</h2>
-    <div class="contact-form">
-      <form id="contactForm">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <div class="contact-form">
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required></textarea>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
 
-        <button type="submit">Send</button>
-      </form>
-    </div>
-  </section>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
 
-  <!-- Other sections will be added here based on your commands -->
-
-  <script src="script.js"></script>
-</body>
-</html>
+    <!-- Other sections will be added here based on your commands -->
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>Your Name</h2>
+          <p>Web Developer</p>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="fas fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fas fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fas fa-linkedin"></i></a>
+          <a href="#" class="social-icon"><i class="fas fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+    <button id="backToTopBtn" class="back-to-top-btn">
+      Back to Top
+    </button>
 
     <script src="script.js"></script>
   </body>
