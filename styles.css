@@ -24,7 +24,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px 50px;
   background-color: #222;
   color: #fff;
 }
@@ -189,10 +189,6 @@ section {
   padding: 100px 0;
 }
 
-.project-section {
-  margin-bottom: 50px;
-}
-
 .project-container {
   display: flex;
   justify-content: center;
@@ -252,7 +248,7 @@ section {
 
 .contact-section {
   text-align: center;
-  padding: 100px 0;
+  padding: 80px 40px;
 }
 
 .contact-form {
@@ -260,8 +256,9 @@ section {
   margin: 0 auto;
   background-color: #fff;
   border-radius: 10px;
-  padding: 40px;
+  padding: 20px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  text-align: start;
 }
 
 #contactForm {
@@ -277,7 +274,7 @@ label {
 
 input,
 textarea {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -409,7 +406,8 @@ button:hover {
     flex-direction: row;
     align-items: center;
     position: relative;
-    width: 91%;
+    padding: 20px;
+    width: auto;
   }
 
   .menu-toggle {
