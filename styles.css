@@ -5,7 +5,6 @@ html {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  /* background-color: #f0f0f0; */
 }
 
 .background-pattern {
@@ -97,6 +96,7 @@ section {
   .nav-links.show {
     display: flex;
     opacity: 1;
+    z-index: 1;
     transform: translateY(0);
     margin-top: 0;
   }
@@ -118,17 +118,14 @@ section {
   }
 }
 
-/* ... Previous styles ... */
-
 /* Styling for About section */
 
 .about-section {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 50px 20px; /* Adjust padding for smaller screens */
+  padding: 50px 20px;
   text-align: center;
-  /* margin-top: 60px; */
 }
 
 .about-content {
@@ -136,16 +133,16 @@ section {
 }
 
 .about-content h2 {
-  font-size: 28px; /* Adjust font size for smaller screens */
+  font-size: 28px;
   margin-bottom: 20px;
 }
 
 .about-content p {
-  font-size: 16px; /* Adjust font size for smaller screens */
+  font-size: 16px;
 }
 
 .about-image {
-  margin-top: 20px; /* Add margin for spacing on smaller screens */
+  margin-top: 20px;
   opacity: 0;
   animation: fadeIn 1s ease forwards; /* Apply the fadeIn animation */
 }
@@ -153,7 +150,6 @@ section {
 .about-image img {
   max-width: 100%;
   height: auto;
-  /* border-radius: 50%; */
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -188,8 +184,6 @@ section {
     max-width: 80%;
   }
 }
-
-/* ... Previous styles ... */
 
 /* Styling for Skills section */
 .skills-section {
@@ -248,15 +242,16 @@ section {
 
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 768px) {
-  .skills-container {
-    flex-direction: column;
+  /* .skills-container {
+    flex-direction: row;
     align-items: center;
-  }
+    justify-content: space-evenly;
+  } */
 
-  .skill {
-    width: 80%;
+  /* .skill {
+    width: 40%;
     margin: 10px 0;
-  }
+  } */
 
   .skill img {
     width: 40px;
